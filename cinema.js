@@ -25,7 +25,7 @@ function listarFilmesEmCartaz(filmes) {
 function alterarStatusEmCartaz(id, filmes) {
   const idxFilme = filmes.findIndex((filme) => {
     if (filme.codigo === id) {
-      return true;
+      return true
     }
   });
   if (idxFilme >= 0) {

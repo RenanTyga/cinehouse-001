@@ -33,8 +33,7 @@ function alterarStatusEmCartaz(id, filmes) {
     return true;
   } else {
     return false;
-  }
-}
+  }}
 
 console.log(alterarStatusEmCartaz(1, catalogoObj.data));
 console.log(catalogoObj.data);

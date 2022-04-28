@@ -20,7 +20,7 @@ function listarFilmesEmCartaz(filmes) {
   });
   return filmesEmCartaz;
 }
-// console.log(listarFilmesEmCartaz(catalogoObj.data));
+console.log(listarFilmesEmCartaz(catalogoObj.data));
 
 function alterarStatusEmCartaz(id, filmes) {
   const idxFilme = filmes.findIndex((filme) => {
